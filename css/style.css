@@ -1,0 +1,15 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.target {
+  width: 150px;
+  height: 150px;
+  border: 5px solid pink;
+  position: absolute;
+}
