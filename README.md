@@ -1,4 +1,15 @@
 # mini-ani
-small animation utility. only works for pixel values.
+minimal animation utility. only works for pixel values.
 
-see bottom of main.js for an example.
+example
+
+```javascript
+let box = document.querySelector(".box");
+
+animate.to(box, {
+    left: Math.floor(Math.random() * 500),
+    top: Math.floor(Math.random() * 500),
+    width: Math.floor(Math.random() * 500),
+    height: Math.floor(Math.random() * 500)
+})
+```
